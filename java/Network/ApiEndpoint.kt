@@ -5,7 +5,7 @@ import retrofit2.Call
 import retrofit2.http.GET
 
 interface ApiEndpoint {
-    @GET("top-headlines?country=id&category=science&apiKey=68244cf4cc4d45ad98370eaec6b9dd05")
+    @GET("top-headlines?country=id&category=science&apiKey=")
     fun getDataApi() : Call<ModelSecond>
 
 }
